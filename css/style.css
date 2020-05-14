@@ -73,6 +73,7 @@ p {
     padding-top: 30px;
     padding-bottom: 44px;
     width: 461px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .head-line {
@@ -162,12 +163,10 @@ p {
 /*block-social==============
 ============*/
 
-
-
 .main-social {
+    position: relative;
     width: 100%;
     border-bottom: 1px solid #808080;
-
 }
 
 .social-title {
@@ -176,18 +175,84 @@ p {
 }
 
 .social-media {
+    width: 360px;
     display: inline-block;
+    margin-right: 87px;
 }
 
 .social-text {
-    width: 360px;
     font-size: 14px;
     color: #86878B;
 }
 
-.main-icon {
+.social-icon {
+    position: absolute;
     display: inline-block;
     text-align: center;
+    font-size: 48px;
+}
+
+.main-social img {
+    padding-right: 30px;
+}
+
+
+/*block-town==================
+==========*/
+
+.town {
+    width: 100%;
+}
+
+.tabs {
+    display: inline-block;
+    margin-top: 148px;
+}
+
+.tab {
+    display: block;
+    width: 112px;
+    height: 112px;
+    padding: 0;
+    background: #333333;
+}
+
+.tabs :hover {
+    background: #FF8B38;
+}
+
+.tab-text {
+    color: #ffffff;
+}
+
+.town-info {
+    display: inline-block;
+    width: 476px;
+    margin-left: 100px;
+}
+
+.town-title {
+    padding-bottom: 52px;
+    color: #000000;
+}
+
+.town-text {
+    padding-bottom: 51px;
+    font-size: 14px;
+    color: #86878B;
+}
+
+.town-btn {
+    width: 135px;
+    height: 42px;
+    background: #FF8B38;
+    border: none;
+    border-radius: 5%;
+}
+
+.town-img {
+    margin-left: 100px;
+    display: inline-block;
 }
 
 
@@ -283,7 +348,45 @@ hr {
 }
 
 
-/* block-photo
+/*block-pricing===================
+============*/
+
+.pricing {
+    width: 100%;
+}
+
+.pricing-main {
+    margin-top: 107px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.pricing-title {
+    margin-bottom: 30px;
+    font-family: 'Raleway', sans-serif;
+    color: #212121;
+}
+
+.pricing-info {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #86878B;
+}
+
+.Basic {
+    display: inline-block;
+}
+
+.Professional {
+    display: inline-block;
+}
+
+.Enterprise {
+    display: inline-block;
+}
+
+
+/* block-photo=============
 ============*/
 
 .photo-city {
@@ -347,7 +450,6 @@ hr {
 
 /* FOOTER 
 =================*/
-
 
 .block-footer {
     width: 100%;
