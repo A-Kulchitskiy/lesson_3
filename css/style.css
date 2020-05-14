@@ -5,6 +5,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
 }
 
 
@@ -202,6 +203,7 @@ p {
 
 .town {
     width: 100%;
+    background: #F5F5F5;
 }
 
 .tabs {
@@ -353,24 +355,84 @@ hr {
 
 .pricing {
     width: 100%;
+    background: #F5F5F5;
 }
 
-.pricing-main {
-    margin-top: 107px;
-    margin-bottom: 80px;
+.pricing-prices {
     text-align: center;
 }
 
-.pricing-title {
-    margin-bottom: 30px;
-    font-family: 'Raleway', sans-serif;
-    color: #212121;
+.pricing-block {
+    width: 343px;
+    list-style: none;
 }
 
-.pricing-info {
-    margin-top: 30px;
+.list-bcg {
+    background: #333333;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.no-border {
+    border: none;
+}
+
+.list-info {
+    height: 40px;
+    background: #FFFFFF;
+}
+
+.list-text {
+    display: block;
+    padding-top: 13px;
     font-size: 14px;
     color: #86878B;
+    text-transform: uppercase;
+}
+
+.name-text {
+    padding: 21px 0 21px 0;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.italics {
+    display: block;
+    padding: 17px 0 19px 0;
+    font-size: 14px;
+    font-style: italic;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.list-line {
+    height: 5px;
+    background: #FF8B38;
+}
+
+.list-lineup {
+    padding: 13px 0 15px 0;
+    background: #FF8B38;
+}
+
+.lineup-text {
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.dollar {
+    display: inline-block;
+    padding: 30px 0 2px 0;
+    font-size: 35px;
+    color: #FFFFFF;
+    font-family: Raleway-Bold, AdobeInvisFont, MyriadPro-Regular;
+}
+
+.numeral {
+    display: inline-block;
+    padding: 30px 0 0 0;
+    font-size: 50px;
+    color: #FFFFFF;
+    font-family: Raleway-Bold, AdobeInvisFont, MyriadPro-Regular;
 }
 
 .Basic {
