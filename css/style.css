@@ -279,6 +279,7 @@ hr {
     margin-bottom: 30px;
     font-family: 'Raleway', sans-serif;
     color: #212121;
+    font-size: 36px;
 }
 
 .main-info {
@@ -448,6 +449,48 @@ hr {
 }
 
 
+/* block-comment===========
+===========*/
+
+.reviews {
+    width: 100%;
+    background: #FFFFFF;
+}
+
+.comment {
+    margin-left: 90px;
+    display: inline-block;
+    width: 273px;
+}
+
+.comment-text {
+    font-size: 14px;
+    background: url(../img/icon/message.png);
+    color: #86878B;
+}
+
+.face {
+    position: absolute;
+    padding-top: 49px;
+    display: block;
+}
+
+.face-name {
+    font-size: 20px;
+    display: block;
+    color: #333333;
+    padding-top: 65px;
+    padding-left: 85px;
+}
+
+.profession {
+    display: block;
+    font-size: 14px;
+    color: #86878B;
+    padding-left: 85px;
+}
+
+
 /* block-photo=============
 ============*/
 
@@ -504,9 +547,26 @@ hr {
     margin-bottom: 63px;
 }
 
-.btn-text {
-    font-size: 13px;
-    color: #ffffff;
+
+/* block-contact===========
+==============*/
+
+.contact {
+    width: 100%;
+    font-size: 0px;
+}
+
+.form {
+    border: none;
+    border-bottom: 1px solid #808080;
+    padding-left: 14px;
+}
+
+.form-message {
+    border: none;
+    border-bottom: 1px solid #808080;
+    padding-left: 14px;
+    padding-bottom: 140px;
 }
 
 
